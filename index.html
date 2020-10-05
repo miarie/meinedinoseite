@@ -2,9 +2,13 @@
 <html>
     <head> 
         <title>Dinosaurs</title>
-        <link href="dinosaurier.style.css" rel="stylesheet">  
+        <link href="css/dinosaurier.style.css" rel="stylesheet">  
     </head>
     <body>
+        <audio id="dinorawr" preload="auto">
+            <source src="assets/dinosound.mp3" type="audio/mpeg">
+
+        </audio>
         <header>
             <h1>Dinosaurs!</h1>
         </header>
@@ -13,7 +17,7 @@
         <h2>About dinosaurs</h2>
         <h3>Their history</h3>
         <p>Dinosaurs are a diverse group of reptiles of the clade Dinosauria.</p>
-        <img src="https://bilder.bild.de/fotos-skaliert/an-einem-fossil-des-centrosaurus-apertus-fanden-forscher-einen-krebstumor-201494180-72229128/2,w=1280,c=0.bild.jpg" alt="Dinosauria">   
+        <img src="https://bilder.bild.de/fotos-skaliert/an-einem-fossil-des-centrosaurus-apertus-fanden-forscher-einen-krebstumor-201494180-72229128/2,w=1280,c=0.bild.jpg" alt="Dinosauria" onclick="Rawrrrr()">   
         <p>They first appeared during the Triassic period, between 243 and 233.23 million years ago, although the exact origin and timing of the evolution of dinosaurs is the subject of active research.</p>
         <p>They became the dominant terrestrial vertebrates after the Triassic–Jurassic extinction event 201 million years ago; their dominance continued through the Jurassic and Cretaceous periods. Reverse genetic engineering and the fossil record both demonstrate that birds are modern feathered dinosaurs, having evolved from earlier theropods during the late Jurassic Period.</p>
         <p>As such, birds were the only dinosaur lineage to survive the Cretaceous–Paleogene extinction event 66 million years ago. Dinosaurs can therefore be divided into avian dinosaurs, or birds; and non-avian dinosaurs, which are all dinosaurs other than birds. This article deals primarily with non-avian dinosaurs.</p>
@@ -26,9 +30,9 @@
         <footer>
                 "There's an incomparable rush that comes from finding dinosaur bones. You know you're the first person to lay hands on a critter that lived 80 or 90 million years ago."
                 - Jack Horner
-        
         </footer>
         
     </body>
-
+    <script src="js/dino.js">
+    </script>
 </html>
