@@ -16,6 +16,7 @@ main {
     padding: 20px;
     border: 5px #343C45 solid;
     margin: 0 auto;
+    text-align: center;
 }
 
 img { 
@@ -28,4 +29,50 @@ footer {
     text-align: center;
     padding: 25px 0;
     margin-top: 25px;
+}
+
+.dinosaurs {
+    background-color: #343C45;
+    color: white;
+    padding: 75px 0;
+    text-align: justify;
+
+}
+
+.columns {
+    display: flex;
+}
+
+.column {
+    margin: 0 20px;
+}
+
+#navibereich li {
+    display: inline;            /* Listenelemente nebeneinander */
+    list-style-type: none;      /* Aufzählungszeichen entfernen */
+  }
+
+  #navibereich {
+    background-color: #343C45;        /* Hintergrundfarbe für die Navigation */ 
+    padding: 4px 0;                   /* Innenabstand: oben/unten 4px, li/re 0 */
+    border-top: 3px solid #F2F1EF;    /* Rahmenlinie oben */
+    border-bottom: 3px solid #F2F1EF; /* Rahmenlinie unten */
+    margin: 0;                        /* Keinen Außenabstand */ 
+  }
+
+  #navibereich a {
+    color: #f2f1ef;                  /* Schriftfarbe*/ 
+    text-decoration: none;         /* Unterstreichung entfernen */ 
+    padding: 4px 8px;              /* oben/unten 4px, re/li 8px */
+  }
+
+  #navibereich a:hover {
+    background-color: #5199CC;
+  }
+
+    #navibereich a:hover,        /* mit Komma am Ende */
+    #startseite #navi01 a,       /* mit Komma am Ende */
+    #kontaktseite #navi02 a {    /* ohne Komma am Ende */
+    background-color: #5199CC;
+    color: #F2f1ef
 }
